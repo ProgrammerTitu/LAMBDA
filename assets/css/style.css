@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Lato&family=Open+Sans:ital,wght@0,700;1,400&family=Yeseva+One&display=swap');
+
+
+/* Font Link Used */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gentium Book Basic', serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Yeseva One', cursive;
+  font-family: 'Open Sans', sans-serif;
+}
+/* Header Part Start */
+.header_part {
+  background: url(../img/home_bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header_overlay {
+  background: rgba(0,0,0,0.5);
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 21px;
+  color: #fff;
+  font-family: 'Gentium Book Basic', serif;
+  font-weight: bold;
+}
+.header_icon_inner {
+  text-align: right;
+}
+.header_icon_inner a {
+  font-size: 15px;
+  color: #dab33e;
+  padding-left: 15px;
+}
+.header_icon_inner:hover a {
+  color: black;
+}
+/* Header Part End */
+/* Hero Part Start */
+.hero_part {
+  padding: 125px 0;
+}
+.hero_head h1 {
+  font-size: 90px;
+  color: #fff;
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400;
+}
+.hero_btn {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+.hero_btn_inner {
+  height: 58px;
+  width: 232px;
+  background: rgba(191, 179, 125, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 25px;
+  transition: 0.3s;
+}
+.hero_btn_inner:hover {
+  background: rgba(32, 30, 28, 0.5);
+}
+.hero_btn_inner a {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;  
+}
+/* Hero Part End */
+/* About Part Start */
+.about_part {
+  padding: 100px;
+  background: url(../img/about_bg.png) no-repeat;
+  background-size: cover;
+  background-position:  center;
+}
+.about_head h4 {
+  font-size: 36px;
+  color: #cc9900;
+  font-family: 'Yeseva One', cursive;
+}
+.about_head p {
+  padding: 25px 0;
+  font-size: 16px;
+  color: #4c4c4c;
+  font-family: 'Lato', sans-serif;
+}
+.about_img_inner {
+  padding: 50px 0 0; 
+}
+.about_img {
+  padding-top: 60px;
+}
+/* About Part End */
+/* Ingredients Part Start */
+.ingredient_part {
+  padding: 100px 0;
+  background: url(../img/ingredients_bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.ingredient_overlay {
+  background: rgba(0,0,0,0.5);
+}
+.ingredient_head h4 {
+  padding: 80px 0 0;
+  font-size: 36px;
+  color: #fff;
+  font-family: 'Yeseva One', cursive;
+}
+.ingredient_head p {
+  padding: 30px 60px;
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+.ingredient_img {
+  padding: 80px 0;
+}
+.ingredient_img_inner {
+  margin: 0 20px;
+}
+/* Ingredients Part End */
+/* Menu Part Start */
+.menu_part {
+  padding: 110px 0;
+  background: url(../img/menu_bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.menu_head h4 {
+  font-size: 36px;
+  color: #cc9900;
+  font-family: 'Yeseva One', cursive;
+}
+.menu_text h6 {
+  padding: 20px 0 0;
+  font-style: 21px;
+  color: #c89f2d;
+  font-family: 'Yeseva One', cursive;
+  margin-bottom: 0;
+}
+.menu_text h6 .prise {
+  margin-left: 320px;
+}
+.menu_text h6 .prise_02 {
+  margin-left: 250px;
+}
+.menu_text h6 .prise_03 {
+  margin-left: 280px;
+}
+.menu_text p {
+  font-size: 16px;
+  color: #4c4c4c;
+  font-family: 'Lato', sans-serif;
+  margin-right: 50px;
+}
+/* Menu Part End */
+/* Reviews Part Start */
+.review_part {
+  padding: 100px 0;
+  background: url(../img/reviews_bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.review_overlay {
+  background: rgba(0,0,0,0.5);
+  padding: 55px;
+}
+.review_head h4 {
+  font-size: 36px;
+  color: #fff;
+  font-family: 'Yeseva One', cursive;
+}
+.review_head p {
+  font-size: 25px;
+  color: #dde0df;
+  font-family: 'Gentium Book Basic', serif;
+  font-weight: bold;
+}
+.review_head_inner p {
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+/* Reviews Part End */
+/* Reservation Part Start */
+.reserv_part {
+  padding: 100px 0;
+  background: url(../img/reservation_bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.reserv_head h4 {
+  font-size: 36px;
+  color: #cc9900;
+  font-family: 'Yeseva One', cursive;
+}
+.reserv_head p {
+  font-size: 16px;
+  color: #4c4c4c;
+  font-family: 'Lato', sans-serif;
+  margin: 30px 70px 4px;
+}
+.contact_form p {
+  font-size: 14px;
+  color: #c9a131;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin: 25px 0 0 30px;
+}
+.name {
+  height: 35px;
+  width: 200px;
+  border: 1px solid #dfdfdf;
+  background: #f5f6f7;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  color: #7c7c7c;
+  padding-left: 15px;
+  margin-left: 30px;
+}
+.form_btn {
+  padding: 30px 0;
+}
+.btn_inner .btn {
+  height: 35px;
+  width: 200px;
+  background: #c9a131;
+}
+.btn_inner a {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+/* Reservation Part End */
+/* Footer Part Start */
+.footer_part {
+  padding: 100px 0;
+  background: #000;
+}
+.footer_head h5 {
+  font-size: 21px;
+  color: #fefefe;
+  font-family: 'Yeseva One', cursive;
+}
+.footer_head p {
+  font-size: 14px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin-top: 25px;
+}
+.footer_head .greek {
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer_icon {
+  padding: 30px 0;
+}
+.footer_icon_inner a {
+  color: #fff;
+  margin-left: 10px;
+  height: 15px;
+  width: 20px;
+}
+.footer_icon_inner i {
+  height: 16px;
+  width: 22px;
+}
+/* Footer Part End */
+
+
+/* Responsiv CSS Start Inportent */
+@media (max-width: 575.98px) {
+  .mt_2 {
+    margin-top: 2rem;
+  }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .mt_1 {
+    margin-top: 1rem;
+  }
+  .mt_2 {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .mt_2 {
+    margin-top: 2rem;
+  }
+  .mt_5 {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) {}
+/* Responsiv CSS End Inportent */
